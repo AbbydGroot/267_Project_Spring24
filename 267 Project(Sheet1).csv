@@ -1,0 +1,6 @@
+Genre ,trial 1,trial 2,trial 3,trial 4,trial 5,Average,Standard deviation ,*all times are in seconds
+control ,14.95,14.83,14.35,15.03,15.37,14.91,0.37,
+Happy/Upbeat,11.64,12.14,13.37,12.54,11.43,12.22,0.77,
+Sad,21.18,23.24,21.39,22.70,21.38,21.98,0.93,
+Angry/Intense,11.27,8.53,13.45,11.38,9.76,10.88,1.86,
+Calm,18.80,16.04,16.34,17.61,15.03,16.76,1.46,
