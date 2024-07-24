@@ -3,7 +3,6 @@
 
 # In[21]:
 
-
 import math
 import numpy as np
 import matplotlib.pyplot as plt
@@ -43,12 +42,18 @@ stddev = standardDev()
 colour = ["lightsteelblue", "gold", "steelblue", "mediumpurple", "lightpink"]
 
 plt.bar(Genres, avg, yerr = stddev, color = colour, ecolor = "sienna", capsize = 15)
+
 plt.title("\nHow Long Fifteen Seconds Feels \nWhen Listening to Different Music\n")
 plt.xlabel("\nGenre")
 plt.ylabel("Time (s)")
 plt.show()
 
-
+plt.bar(Genres, [0, 130, 100, 160, 110], color = colour )
+plt.bar(Genres, [0, 100, 70, 100, 84], color = "white" )
+plt.title("\nTempo of Different Genres of Music\n")
+plt.xlabel("Genre\n")
+plt.ylabel("\nTempo (BPM)")
+plt.plot()
 # In[ ]:
 
 
